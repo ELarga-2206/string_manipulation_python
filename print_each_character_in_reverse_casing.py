@@ -14,3 +14,16 @@
     #PRINT "Your name with reversed casing is lmao:", reversed_case_name smth
 
 #CALL main()
+
+def reverse_case(char):
+    if char.islower():
+        return char.upper()
+    if char.isupper():
+        return char.lower()
+    else:
+        return char
+    
+    def main():
+    # Ask user to input full name
+    #try reverse the casing (dunnow how)
+    #print result
