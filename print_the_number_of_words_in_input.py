@@ -7,3 +7,9 @@
 # num_words = COUNT THE NUMBER OF WORDS IN THE LIST
 # PRINT "The number of words in your statement is:", num_words
 
+def main():
+    statement = input("Please enter your statement: ")
+
+
+#spit words and count
+#len and split 
