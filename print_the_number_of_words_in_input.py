@@ -10,6 +10,9 @@
 def main():
     statement = input("Please enter your statement: ")
 
+    num_words = len(statement.split())
 
-#spit words and count
-#len and split 
+    print("number of words is: ", num_words)
+
+if __name__ == "__main__":
+    main()
