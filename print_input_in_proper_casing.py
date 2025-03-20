@@ -10,4 +10,9 @@
 # full_name = GET user input
 #print proper_case_name
 
+def to_proper_case(name):
+    proper_case_name = name.title()
+    return proper_case_name
 
+def main():
+    full_name = input("Please enter your full name in incorrect casing: ")
