@@ -9,7 +9,7 @@
 def main():
     number = int(input("Please enter a number between 0 and 1000: "))
     
-    six_digit_number = "{number:06}"
+    six_digit_number = f"{number:06}"
     
     print("6-digit format is:", six_digit_number)
 
