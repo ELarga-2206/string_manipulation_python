@@ -10,19 +10,9 @@
 #pascal_case_name = CALL to_pascal_case(full_name)
 # PRINT "Your name in PascalCase is:", pascal_case_name
 
-def main():
-
-    full_name = input("Please enter your full name in incorrect casing: ")
-    pascal_case_name = to_pascal_case(full_name)
-    
-    print("Your name in PascalCase is:", pascal_case_name)
-
-if __name__ == "__main__":
-    main()
-
 def to_pascal_case(name):
-
     words = name.split()
+    
     pascal_case_name = ''.join(word.capitalize() for word in words)
     
     return pascal_case_name
